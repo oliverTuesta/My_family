@@ -1,4 +1,4 @@
-package com.otuesta.yoplacfamily
+package com.otuesta.myfamily
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="card_style">
+        <item name="cardElevation">100dp</item>
+        <item name="android:layout_margin">15dp</item>
+        <item name="cardCornerRadius">10dp</item>
+    </style>
+
+    <style name="title_style">
+        <item name="android:textColor">@color/title</item>
+        <item name="fontFamily">sans-serif-light</item>
+        <item name="android:textSize">@dimen/title_size</item>
+    </style>
+    <style name="text_style">
+        <item name="android:textColor">@color/text</item>
+        <item name="fontFamily">sans-serif-light</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+
+</resources>

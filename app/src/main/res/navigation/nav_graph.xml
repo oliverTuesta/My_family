@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navHomeFragment">
+
+    <fragment
+        android:id="@+id/navHomeFragment"
+        android:name="com.otuesta.myfamily.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navHomeFragment_to_navFamilyFragment"
+            app:destination="@id/navFamilyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navFamilyFragment"
+        android:name="com.otuesta.myfamily.FamilyFragment"
+        android:label="fragment_family"
+        tools:layout="@layout/fragment_family" >
+        <action
+            android:id="@+id/action_navFamilyFragment_to_navLocationFragment"
+            app:destination="@id/navLocationFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navLocationFragment"
+        android:name="com.otuesta.myfamily.LocationFragment"
+        android:label="fragment_location"
+        tools:layout="@layout/fragment_location" />
+</navigation>

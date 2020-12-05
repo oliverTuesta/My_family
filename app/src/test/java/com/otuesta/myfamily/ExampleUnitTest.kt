@@ -1,4 +1,4 @@
-package com.otuesta.yoplacfamily
+package com.otuesta.myfamily
 
 import org.junit.Test
 
