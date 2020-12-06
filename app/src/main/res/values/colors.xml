@@ -12,6 +12,7 @@
     <color name="primary_dark">#f2cc8f</color>
     <color name="primary">#f4f1de</color>
 
-    <color name="title">#e07a5f</color>
-    <color name="text">#3d405b</color>
+    <color name="blue">#3d405b</color>
+    <color name="orange">#e07a5f</color>
+    <color name="green">#81b29a</color>
 </resources>

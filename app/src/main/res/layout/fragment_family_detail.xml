@@ -8,7 +8,8 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
 
         <androidx.cardview.widget.CardView
             android:id="@+id/cvFamilyDetail"
@@ -30,8 +31,42 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="70dp"
-                    tools:text="Name" />
+                    android:layout_marginStart="@dimen/margin_text"
+                    android:layout_marginTop="75dp"
+                    android:layout_marginEnd="@dimen/margin_text"
+                    android:lines="1"
+                    tools:text="Juansito Alonso Segundo Cuarto" />
+
+                <TextView
+                    style="@style/text1_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="@dimen/margin_text"
+                    tools:text="17 de Julio" />
+
+                <TextView
+                    style="@style/text2_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="30dp"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="sans-serif-condensed"
+                    app:drawableStartCompat="@drawable/ic_phone"
+                    tools:text="999 999 999" />
+
+                <TextView
+                    style="@style/text2_style"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:drawablePadding="10dp"
+                    android:fontFamily="sans-serif-condensed"
+                    app:drawableStartCompat="@drawable/ic_location"
+                    tools:text="Jr. Huayabamba 229" />
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>

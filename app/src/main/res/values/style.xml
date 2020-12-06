@@ -9,14 +9,19 @@
     </style>
 
     <style name="title_style">
-        <item name="android:textColor">@color/title</item>
+        <item name="android:textColor">@color/orange</item>
         <item name="fontFamily">sans-serif-black</item>
         <item name="android:textSize">@dimen/title_size</item>
     </style>
-    <style name="text_style">
-        <item name="android:textColor">@color/text</item>
+    <style name="text1_style">
+        <item name="android:textColor">@color/blue</item>
         <item name="fontFamily">sans-serif-light</item>
-        <item name="android:textSize">@dimen/text_size</item>
+        <item name="android:textSize">@dimen/text1_size</item>
+    </style>
+    <style name="text2_style">
+        <item name="android:textColor">@color/blue</item>
+        <item name="fontFamily">sans-serif-light</item>
+        <item name="android:textSize">@dimen/text2_size</item>
     </style>
 
 </resources>

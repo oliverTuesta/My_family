@@ -3,8 +3,9 @@
     <dimen name="card_margin">10dp</dimen>
     <dimen name="elevation">5dp</dimen>
     <dimen name="title_size">30sp</dimen>
-    <dimen name="text_size">20sp</dimen>
-    <dimen name="margin_text">10dp</dimen>
+    <dimen name="text1_size">20sp</dimen>
+    <dimen name="text2_size">25sp</dimen>
+    <dimen name="margin_text">15dp</dimen>
     <dimen name="margin_text2">5dp</dimen>
 
 </resources>
