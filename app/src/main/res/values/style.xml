@@ -2,14 +2,15 @@
 <resources>
 
     <style name="card_style">
-        <item name="cardElevation">100dp</item>
-        <item name="android:layout_margin">15dp</item>
+        <item name="cardElevation">@dimen/elevation</item>
         <item name="cardCornerRadius">10dp</item>
+        <item name="android:layout_marginStart">10dp</item>
+        <item name="android:layout_marginEnd">10dp</item>
     </style>
 
     <style name="title_style">
         <item name="android:textColor">@color/title</item>
-        <item name="fontFamily">sans-serif-light</item>
+        <item name="fontFamily">sans-serif-black</item>
         <item name="android:textSize">@dimen/title_size</item>
     </style>
     <style name="text_style">
