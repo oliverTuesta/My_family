@@ -61,12 +61,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="30dp"
+                    android:layout_marginEnd="30dp"
                     android:layout_marginTop="30dp"
                     android:layout_marginBottom="30dp"
                     android:drawablePadding="10dp"
                     android:fontFamily="sans-serif-condensed"
                     app:drawableStartCompat="@drawable/ic_location"
-                    tools:text="Jr. Huayabamba 229" />
+                    tools:text="Jr. Huayabamba 229"
+                    android:lines="1"/>
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>

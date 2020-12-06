@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">MyFamily</string>
     <string name="welcome">Bienvenido!!</string>
-    <string name="app_description">Toda la información de las Fiestas de San Roque en Calatayud en la palma de tu mano.
-Consulta el programa de fiestas, los concursos, echa un vistazo a las galerías de fotos, recibe mensajes de interés, envía un comentario o las fotos que te hagas durante las fiestas.
+    <string name="app_description">Toda la información de nuestra familia en la palma de tu mano.
+Consulta el programa de familiares, la ubicación de su residencia, echa un vistazo a las galerías de fotos, recibe mensajes de interés, envía un comentario o las fotos que te hagas durante las fiestas.
 Fiestas declaradas de interés turístico regional</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

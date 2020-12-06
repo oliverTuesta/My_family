@@ -35,7 +35,7 @@
         <androidx.cardview.widget.CardView
             android:id="@+id/cvHome"
             android:layout_width="match_parent"
-            android:layout_height="350dp"
+            android:layout_height="wrap_content"
             style="@style/card_style"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
