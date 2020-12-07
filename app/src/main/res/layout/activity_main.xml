@@ -7,12 +7,20 @@
     tools:context=".MainActivity">
 
     <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <Toolbar
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content" >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_logo" />
+        </Toolbar>
+
+
     </com.google.android.material.appbar.AppBarLayout>
 
     <RelativeLayout
@@ -22,11 +30,12 @@
         app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
         <fragment
-            android:id="@+id/TODO"
+            android:id="@+id/fragContent"
             android:name="androidx.navigation.fragment.NavHostFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_above="@+id/bnvMenu"
+            android:layout_alignParentEnd="true"
             app:defaultNavHost="true"
             app:navGraph="@navigation/nav_graph" />
 

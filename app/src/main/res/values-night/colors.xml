@@ -9,12 +9,10 @@
     <color name="blue">#3d405b</color>
     <color name="orange">#e07a5f</color>
 
-    <color name="primary">#177e89</color>
+    <color name="mainText">#ffffff</color>
+    <color name="secondText">#8D8F97</color>
+    <color name="lightText">#8D8F97</color>
 
-    <color name="mainText">#3d405b</color>
-    <color name="secondText">#ffffff</color>
-    <color name="lightText">#3d405b</color>
-
-    <color name="mainBackground">#f4f1de</color>
-    <color name="secondBackground">#81b29a</color>
+    <color name="mainBackground">#171717</color>
+    <color name="secondBackground">#0E0E0E</color>
 </resources>

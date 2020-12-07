@@ -23,19 +23,19 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/margin_text2"
-                android:textSize="@dimen/text_size"
+                android:textSize="@dimen/mainText"
                 tools:text="Name:"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/margin_text2"
-                android:textSize="@dimen/text_size"
+                android:textSize="@dimen/mainText"
                 tools:text="Phone:"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/margin_text2"
-                android:textSize="@dimen/text_size"
+                android:textSize="@dimen/mainText"
                 tools:text="Phone:"/>
         </LinearLayout>
     </LinearLayout>
