@@ -9,5 +9,11 @@
         <item name="cardBackgroundColor">@color/secondBackground</item>
     </style>
 
+    <style name="title_style">
+        <item name="android:textColor">@color/mainText</item>
+        <item name="android:textSize">@dimen/title</item>
+        <item name="fontFamily">sans-serif-black</item>
+    </style>
+
 
 </resources>
