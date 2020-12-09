@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "396008869908",
+    "project_id": "my-family-9cd61",
+    "storage_bucket": "my-family-9cd61.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:396008869908:android:a52a2f8bcbf11e8c335701",
+        "android_client_info": {
+          "package_name": "com.otuesta.myfamily"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "396008869908-rl6d9ea328jphj2li5pgmq81qsde7rfi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.otuesta.myfamily",
+            "certificate_hash": "7634617fda391ebcf31f870eb9e05ab40b9fa5e1"
+          }
+        },
+        {
+          "client_id": "396008869908-nuqer21j4nm41ane7u5t7n8gr0krucdd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy5DZSaoV5wb_Deh-dhg8egacgZEVgqbc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "396008869908-nuqer21j4nm41ane7u5t7n8gr0krucdd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
