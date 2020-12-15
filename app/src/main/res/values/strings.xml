@@ -2,7 +2,6 @@
     <string name="app_name">MyFamily</string>
     <string name="welcome">Bienvenido!!</string>
     <string name="app_description">Toda la información de nuestra familia en la palma de tu mano.
-Consulta el programa de familiares, la ubicación de su residencia, echa un vistazo a las galerías de fotos, recibe mensajes de interés, envía un comentario o las fotos que te hagas durante las fiestas.
-Fiestas declaradas de interés turístico regional</string>
+Consulta el programa de familiares, la ubicación de su residencia, echa un vistazo al número de teléfono de tu familia</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

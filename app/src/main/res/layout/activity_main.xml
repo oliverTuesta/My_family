@@ -24,7 +24,8 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
 
         <fragment
             android:id="@+id/fragContent"
@@ -32,9 +33,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_above="@id/bnvMenu"
-            android:layout_alignParentEnd="true"
             app:defaultNavHost="true"
-            app:navGraph="@navigation/nav_graph" />
+            app:navGraph="@navigation/nav_graph"/>
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:id="@+id/bnvMenu"

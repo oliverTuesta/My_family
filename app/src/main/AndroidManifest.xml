@@ -9,8 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFamily">
-        <activity android:name="com.otuesta.myfamily.Splash_screen" />
-        <activity android:name="com.otuesta.myfamily.MainActivity">
+        <activity android:name="com.otuesta.myfamily.view.activities.Splash_screen" />
+        <activity android:name="com.otuesta.myfamily.view.activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

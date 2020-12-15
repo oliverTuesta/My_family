@@ -1,7 +1,8 @@
-package com.otuesta.myfamily
+package com.otuesta.myfamily.view.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.otuesta.myfamily.R
 
 class Splash_screen : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
