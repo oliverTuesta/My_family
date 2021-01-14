@@ -3,7 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.ui.fragments.FamilyFragment">
+    tools:context=".view.ui.fragments.FamilyFragment"
+    android:background="@color/mainBackground">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvFamily"
@@ -19,7 +20,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:alpha="0.4"
-            android:background="@color/yellow_cream" />
+            android:background="@color/white" />
 
         <ProgressBar
             android:layout_width="wrap_content"

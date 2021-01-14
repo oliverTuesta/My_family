@@ -1,6 +1,5 @@
 package com.otuesta.myfamily.view.adapter
 
-import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -26,10 +25,6 @@ class FamilyAdapter(val familyListener: FamilyListener) :
         holder.tvName.text = family.name
         holder.tvBirthday.text = family.birthday
         holder.tvPhone.text = family.phone
-
-        if (position%2==0){
-            holder.cvItemFamily.setBackgroundColor(Color.CYAN)
-        }
 
         Glide.with(holder.itemView.context)
             .load(family.photo)
