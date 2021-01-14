@@ -1,4 +1,4 @@
-package com.otuesta.myfamily.view.activities
+package com.otuesta.myfamily.view.ui.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

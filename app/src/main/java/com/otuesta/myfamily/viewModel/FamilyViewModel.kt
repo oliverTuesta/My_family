@@ -1,13 +1,14 @@
 package com.otuesta.myfamily.viewModel
 
 import androidx.lifecycle.MutableLiveData
-import com.otuesta.myfamily.model.Person
+import androidx.lifecycle.ViewModel
+import com.otuesta.myfamily.model.Family
 import com.otuesta.myfamily.network.Callback
 import com.otuesta.myfamily.network.FirestoreService
 
-class FamilyViewModel {
-    val firestoreService = FirestoreService()
-    var listFamily: MutableLiveData<List<Person>> = MutableLiveData()
+class FamilyViewModel: ViewModel() {
+    private val firestoreService = FirestoreService()
+    var listFamily: MutableLiveData<List<Family>> = MutableLiveData()
     var isLoading: MutableLiveData<Boolean> = MutableLiveData()
 
     fun refresh(){
@@ -15,14 +16,14 @@ class FamilyViewModel {
     }
 
     private fun getFamilyfromfirebase() {
-        firestoreService.getFamily(object : Callback<List<Person>>{
-            override fun onSucces(result: List<Person>?) {
+        firestoreService.getFamily(object : Callback<List<Family>> {
+            override fun onSucces(result: List<Family>?) {
                 listFamily.postValue(result)
                 processFinished()
             }
 
             override fun onFail(exception: Exception) {
-                TODO("Not yet implemented")
+                println(exception.message)
                 processFinished()
             }
         })

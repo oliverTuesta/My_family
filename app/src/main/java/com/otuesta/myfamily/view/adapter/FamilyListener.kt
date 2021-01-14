@@ -1,9 +1,9 @@
 package com.otuesta.myfamily.view.adapter
 
-import com.otuesta.myfamily.model.Person
+import com.otuesta.myfamily.model.Family
 
 interface FamilyListener {
 
-    fun onPersonClicked(person: Person, position: Int)
+    fun onFamilyClicked(family: Family, position: Int)
 
 }

@@ -3,26 +3,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".view.fragments.FamilyFragment">
+    tools:context=".view.ui.fragments.FamilyFragment">
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvSchedule"
-        android:layout_height="match_parent"
-        android:layout_width="match_parent"/>
-        <RelativeLayout
+        android:id="@+id/rvFamily"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/rlBaseSchedule"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/yellow_cream"
-                android:alpha="0.4"/>
-            <ProgressBar
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"/>
-        </RelativeLayout>
+            android:layout_height="match_parent"
+            android:alpha="0.4"
+            android:background="@color/yellow_cream" />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
 
 
 </FrameLayout>
