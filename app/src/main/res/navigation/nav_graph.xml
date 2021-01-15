@@ -31,9 +31,10 @@
         android:name="com.otuesta.myfamily.view.ui.fragments.LocationFragment"
         android:label="fragment_location"
         tools:layout="@layout/fragment_location" />
-    <fragment
+    <dialog
         android:id="@+id/familyDetailFragment"
         android:name="com.otuesta.myfamily.view.ui.fragments.FamilyDetailFragment"
         android:label="fragment_family_detail"
-        tools:layout="@layout/fragment_family_detail" />
+        tools:layout="@layout/fragment_family_detail"
+        />
 </navigation>

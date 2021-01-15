@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyFamily">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCy5DZSaoV5wb_Deh-dhg8egacgZEVgqbc" />
+
         <activity android:name="com.otuesta.myfamily.view.ui.activities.Splash_screen" />
         <activity android:name="com.otuesta.myfamily.view.ui.activities.MainActivity">
             <intent-filter>

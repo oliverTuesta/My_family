@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".view.ui.fragments.FamilyDetailFragment">
 
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Toolbar
+            android:id="@+id/tbFamilyDetail"
+            android:background="@color/secondBackground"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </Toolbar>
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+
     <RelativeLayout
+        android:background="@color/mainBackground"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:ignore="UselessParent">
@@ -26,6 +42,7 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/tvNameFamily"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
@@ -39,6 +56,7 @@
                     android:fontFamily="sans-serif-black"/>
 
                 <TextView
+                    android:id="@id/tvBirthday"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
@@ -48,6 +66,7 @@
                     android:textSize="@dimen/lightText"/>
 
                 <TextView
+                    android:id="@+id/tvPhone"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="30dp"
@@ -60,6 +79,7 @@
                     android:textColor="@color/mainText" />
 
                 <TextView
+                    android:id="@+id/tvLocation"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="30dp"
@@ -69,10 +89,11 @@
                     android:drawablePadding="10dp"
                     android:fontFamily="sans-serif-medium"
                     app:drawableStartCompat="@drawable/ic_location"
-                    tools:text="Jr. Huayabamba 229"
+                    android:text="View on map"
                     android:lines="1"
                     android:textSize="@dimen/subTitle"
                     android:textColor="@color/mainText"/>
+
             </LinearLayout>
 
         </androidx.cardview.widget.CardView>
@@ -87,4 +108,4 @@
             android:translationZ="@dimen/card_margin" />
 
     </RelativeLayout>
-</FrameLayout>
+</LinearLayout>

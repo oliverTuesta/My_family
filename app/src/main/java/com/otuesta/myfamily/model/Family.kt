@@ -1,6 +1,8 @@
 package com.otuesta.myfamily.model
 
-class Family {
+import java.io.Serializable
+
+class Family (): Serializable {
 
     var name: String = ""
     var birthday: String = ""

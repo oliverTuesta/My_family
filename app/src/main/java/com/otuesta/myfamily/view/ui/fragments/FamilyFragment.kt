@@ -48,7 +48,7 @@ class FamilyFragment : Fragment(), FamilyListener {
 
         }
 
-    fun observeViewModel(view: View) {
+    private fun observeViewModel(view: View) {
         viewModel.listFamily.observe(viewLifecycleOwner, Observer<List<Family>> { family ->
             familyAdapter.updateData(family)
         })
