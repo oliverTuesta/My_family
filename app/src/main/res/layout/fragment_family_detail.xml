@@ -89,8 +89,7 @@
                     android:drawablePadding="10dp"
                     android:fontFamily="sans-serif-medium"
                     app:drawableStartCompat="@drawable/ic_location"
-                    android:text="View on map"
-                    android:lines="1"
+                    tools:text="Location"
                     android:textSize="@dimen/subTitle"
                     android:textColor="@color/mainText"/>
 

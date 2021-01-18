@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.otuesta.myfamily.R
 import com.otuesta.myfamily.model.Family
+import java.text.SimpleDateFormat
 
 class FamilyAdapter(val familyListener: FamilyListener) :
     RecyclerView.Adapter<FamilyAdapter.ViewHolder>() {
@@ -22,12 +23,14 @@ class FamilyAdapter(val familyListener: FamilyListener) :
     override fun onBindViewHolder(holder: FamilyAdapter.ViewHolder, position: Int) {
         val family = listFamily[position]
 
-        holder.tvName.text = family.name
-        holder.tvBirthday.text = family.birthday
-        holder.tvPhone.text = family.phone
+        holder.tvName.text = family.getName()
+        val df = SimpleDateFormat("dd/MM")
+
+        holder.tvBirthday.text = df.format(family.getBirthday())
+        holder.tvPhone.text = family.getPhone()
 
         Glide.with(holder.itemView.context)
-            .load(family.photo)
+            .load(family.getPhoto())
             .into(holder.ivPhoto)
 
         holder.itemView.setOnClickListener {

@@ -18,9 +18,12 @@ class MainActivity : AppCompatActivity() {
 
     private fun configNav() {
         val bnvMenu = findViewById<BottomNavigationView>(R.id.bnvMenu) as BottomNavigationView
-        NavigationUI.setupWithNavController(bnvMenu, Navigation.findNavController(this,
-            R.id.fragContent
-        ))
+        NavigationUI.setupWithNavController(
+            bnvMenu, Navigation.findNavController(
+                this,
+                R.id.fragContent
+            )
+        )
     }
 
 
