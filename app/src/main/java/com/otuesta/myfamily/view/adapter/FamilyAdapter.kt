@@ -1,5 +1,6 @@
 package com.otuesta.myfamily.view.adapter
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -20,6 +21,7 @@ class FamilyAdapter(val familyListener: FamilyListener) :
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): FamilyAdapter.ViewHolder =
         ViewHolder(LayoutInflater.from(parent.context).inflate(R.layout.item_family, parent, false))
 
+    @SuppressLint("ResourceAsColor")
     override fun onBindViewHolder(holder: FamilyAdapter.ViewHolder, position: Int) {
         val family = listFamily[position]
 
